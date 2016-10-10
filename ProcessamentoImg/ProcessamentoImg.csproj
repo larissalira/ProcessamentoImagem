@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Control\GerenciamentoFiltros.cs" />
+    <Compile Include="Control\GerenciamentoOperacoesLogicas.cs" />
     <Compile Include="Control\LeitorImagem.cs" />
     <Compile Include="Model\Imagem.cs" />
     <Compile Include="View\Form1.cs">
@@ -76,6 +78,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="scr\Airplane.pgm" />
+    <None Include="scr\lena.pgm" />
+    <None Include="scr\Lenag.pgm" />
+    <None Include="scr\Lenasalp.pgm" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
